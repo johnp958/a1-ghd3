@@ -85,7 +85,13 @@
     // Add Polygons
     svg.append("polygon")
         .attr("points", "485,175 555,225 530,305 445,305 425,225")
-        .attr("fill", "gold");
+        .attr("fill", "gold")
+        // If shape is clicked, it will change the color to red
+        .style("cursor", "pointer")
+        .on("click", function(){
+          d3.select(this)
+            .attr("fill", "red")
+        });
     
   </script>
 </body>
