@@ -17,7 +17,7 @@ Technical and Design Achievements:
 ---
 
 - Used D3.js to create SVG shapes.
-- Created rectangles, circles, lines, a polygon, and a path.
+- Created rectangles, circles, lines, and a polygon.
 - Used different colors, sizes, and coordinates to distinguish the shapes.
 - Utilized interactivity to add more to the visualization design
 
